@@ -1,15 +1,15 @@
 {
-  "name": "bsehovac.github.io",
+  "name": "cube",
   "version": "1.0.0",
   "description": "",
   "main": "",
-  "dependencies": {},
   "devDependencies": {
+    "rollup": "^3.29.4",
     "rollup-plugin-babel-minify": "^5.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c rollup.config.build.js && cp upup.min.js export/ && cp upup.sw.min.js export/ && cp index.html export/ && cp -R assets export/"
+    "build": "next build",
+    "start": "next start",
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bsehovac/bsehovac.github.io/issues"
+    "url": " "
   },
-  "homepage": "https://github.com/bsehovac/bsehovac.github.io#readme"
+  "homepage": "#"
 }
